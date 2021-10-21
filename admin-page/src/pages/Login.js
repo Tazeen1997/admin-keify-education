@@ -8,9 +8,10 @@ function Login(){
 
     return(
         <div>
-            <input type="text" placeholder="username" />
+            {/* <input type="text" placeholder="username" />
             <button onClick={() => {history.push("/admin");
-            }}>Login</button>
+            }}>Login</button> */}
+            login
         </div>
     );
 }

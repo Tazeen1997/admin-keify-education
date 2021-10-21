@@ -25,7 +25,7 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
     <div className={sidebarOpen ? "sidebar-responsive" : ""} id="sidebar">
 
 
-<Router>
+      {/* <Router>
       
         <div className="app">
         
@@ -42,8 +42,8 @@ const Sidebar = ({ sidebarOpen, closeSidebar }) => {
           </div>
 
         </div>
-      )
-    </Router>
+      
+      </Router> */}
 
 
       <div className="sidebar__title">

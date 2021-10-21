@@ -8,14 +8,16 @@ import Admin from './Admin';
 
 function App(){
   return(
-    <Admin />
-    // <Router>
-    //   <Switch>
-    //   <Route exact path='/' component={Login}/>
-    //     <Route exact path="/login" component={Login} />
-    //     <Route exact path="/admin" component={Admin} />
-    //   </Switch>
-    // </Router>
+    <Router>
+      <Switch>
+        <Route path="/login">
+          <Login />  
+        </Route>
+        <Route path='/'>
+          <Admin />  
+        </Route>
+      </Switch>
+    </Router>
 
   );
 }
